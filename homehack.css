@@ -38,3 +38,8 @@ div.section1 p{ margin-top:20px;
 div.section3 h1{ font-size:48px;}
 
 div.section3 p{margin-top:10px;}
+
+label{font-family:'Bree-Serif';
+      font-weight:540;
+      font-size:18px;}
+
