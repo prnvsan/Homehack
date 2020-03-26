@@ -37,9 +37,29 @@ div.section1 p{ margin-top:20px;
 
 div.section3 h1{ font-size:48px;}
 
-div.section3 p{margin-top:10px;}
+div.section3 p{margin-top:30px;}
+
+button.btn{margin:50px;
+           margin-left:450px;
+       }
+button.btn a{ text-decoration: none;
+              color:#ffff
+}
 
 label{font-family:'Bree-Serif';
       font-weight:540;
       font-size:18px;}
 
+form {display: inline-block;
+  max-width: 100%;}
+
+div.section3 img.formimg{float:right;
+                         border-radius:5%;}
+
+div.section3 form{margin:20px;}
+
+body.inputform{background-color:#ffcce0}
+
+div.section3ii{background-color:#ff6666 ;}
+
+div.section3 button.btn{margin-right:450px;}
