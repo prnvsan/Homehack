@@ -7,7 +7,7 @@ font-size:60px;
 font-family:Lobster;
 }
 
-h1{font-family:'Bree Serif';
+h1 {font-family:'Bree Serif';
    }
 
 p{font-family:'Bree Serif';
@@ -23,7 +23,7 @@ div.section1{ margin-left: 30px;
              
 }
 
-div.section1 h1{ font-size:48px;}
+div.section1 h1{ font-size:48px; }
 
 div.section1 img{
     padding-bottom:320px;
@@ -34,3 +34,7 @@ div.section1 img{
 
 div.section1 p{ margin-top:20px;
 }
+
+div.section3 h1{ font-size:48px;}
+
+div.section3 p{margin-top:10px;}

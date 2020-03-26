@@ -8,6 +8,7 @@
     <body>
     <div class="navbar container-fluid">
        <div>Covid-19 Check</div>
+    </div>
     <div class="section1 ">
         <h1>What does our app do?</h1>
          <div class="row">
@@ -15,17 +16,68 @@
         <p>
              COVID-19, the infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2),
              was first identified in 2019 in Wuhan, China, and has since spread globally, resulting in the 2019–20 coronavirus pandemic.<br><br>
-             We have realised that India is especially prone to community spead as we lack the medical infrastructure to carry out enough testing.<br>
-             So to help out, our app enables you to answer some questions to figure out if you're at risk and allows you to mark locations of high risk people in India, to better figure out the centres of transmission of Covid-19.
+             So we want to help and we have realised that India is especially prone to community spead as we lack the medical infrastructure to carry out enough testing.<br>
+             Our app enables you to answer some questions to figure out if you're at risk and allows you to mark locations of high risk people in India, to better figure out the centres of transmission of Covid-19.
         </p>
          </div>
          <div class="col">
          <img src="section1bg.svg"> 
         </div>
+        </div>
+  
     </div>
+    <div class="section3">
+        <h1>If you have been identified as high risk, please fill out this form</h1>
+        <p>This is to provide a database to government and law enforcement,so that they can reach out to you and make sure you're safe and handle the whole situation. Don't worry your data is safe with us and will not be publicly available :) </p>
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputname">Name</label>
+                <input type="Name" class="form-control" id="inputname">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputage">Age</label>
+                <input type="number" class="form-control" id="inputage">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  This information is accurate and may be used by the government to help me
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
  
     </div>
-
 
 
 
