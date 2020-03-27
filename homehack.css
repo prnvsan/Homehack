@@ -231,3 +231,8 @@ div.info a{text-decoration:none;
            padding-top:300px;
            }
 
+       #map{
+          width: 100%;
+          height: 700px;
+          background-color: grey;}
+
