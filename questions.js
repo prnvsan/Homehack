@@ -27,7 +27,7 @@ var questions = [
         });
        if(i==questions.length){
        $(".QuestionBox button").fadeOut("slow");
-    
+   
        if(choices.indexOf("y")>=0)
           result="You are at high risk of having contracted COVID-19,follow government guidelines and self isolate yourself.";
        else
