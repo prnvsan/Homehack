@@ -23,25 +23,47 @@ body div.navbar h1{
 text-align:center;
 padding-left:50px;
 }
-
-div.Heading{ margin-left: 30px;
-              margin-top:50px;
+div.Back{
+  font-size: small;
+  width: 100px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div.Info{
+  font-size: small;
+  width: 100px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div.Heading{ margin-top: auto;
               text-align: center;
              
 }
 
 div.QuestionBox{
-  /* padding-top: 10px; */
+  
   border-radius: 25px;
-  height: 300px;
-  width: 700px;
-  background-color: rgb(240, 132, 132);
+  height: 400px;
+  width: 75%;
+  background-color: rgb(189, 126, 231);
 }
 div.Heading h3{
-  padding-top:75px;
+  padding-top:100px;
 }
 
-div.Heading button{
+/* div.Back {
+  font-style: bold;
+  font-size: x-large;
+  margin-top:20px ;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 60px;
+  width: 120px; */
+/* 
+} */
+#choice {
   font-style: bold;
   font-size: x-large;
   margin-top:20px ;

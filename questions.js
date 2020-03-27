@@ -25,17 +25,36 @@ var questions = [
        $("h3").fadeOut(function() {
           $(this).text(questions[i]).fadeIn();
         });
-       if(i==questions.length){
-       $(".Heading button").fadeOut("slow");
-    
+
+       if(i>=questions.length){
+       $(".Heading #choice").fadeOut("slow");
+       
        if(choices.indexOf("y")>=2)
+       {
+     
           result="You are at high risk of having contracted COVID-19,follow government guidelines and self isolate yourself.";
-       else
+          $(".QuestionBox").css('background','rgb(255, 109, 109)');
+          document.getElementById('Info').style.display = "block";
+
+          }   else
+          {
           result="It seems you may not have COVID-19 ,but stay at home and practice social distancing.";
-       $("h3").fadeOut(function() {
+          $(".QuestionBox").css('background','rgb(95, 255, 156)'); 
+          document.getElementById('Info').style.display = "block";
+         }
+          $("h3").fadeOut(function() {
           $(this).text(result).fadeIn();
         });
        }
     
       
     })
+
+   //  function showBack() {
+   //    document.getElementById('Back').style.display = "block";
+   //  }
+
+    
+   //  function showInfo() {
+   //    document.getElementById('Info').style.display = "block";
+   //  }

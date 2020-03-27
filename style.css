@@ -10,6 +10,9 @@ height:100px;
 font-size:60px;
 font-family:'Lobster';
 }
+.Back button{
+	margin-top:10%;
+}
 
 h1 {font-family:'Bree Serif';
    }
@@ -64,7 +67,8 @@ margin-top: 40px;
 padding:10px 20px 10px 20px;
 color:#333;
 background:#f8f8f8;
-overflow:auto;width:50%;
+overflow:auto;width:75%;
+height:75%;
 }
 h5{
     margin: 0;
