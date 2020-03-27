@@ -123,6 +123,61 @@
     </form>
     </div>
 
+    <div class="container section5">
+    <h1>Mark your quarantined location on google maps so that people can get an idea of areas of high risk for Covid-19 spread</h1>
+    <h1>Enter your coordinates</h1>
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" id="lat" placeholder="Latitude">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="long" placeholder="Longitude">
+        </div>
+        <button type="button" class="btn btn-secondary" onclick="getlat();getlong()">Submit</button>
+      </div>
+    </form>
+   
+    <div id="map"></div>
+    <script>
+
+        function getlat(){
+        var latitu= document.getElementById('lat').value;        
+        return latitu;
+      }
+       function getlong(){
+        var longitu= document.getElementById('long').value;
+        return longitu;
+       } 
+      
+      function initMap() {
+        
+        var latitu1=getlat().value;
+        var longitu1=getlong().value;
+        var markerplace={lat:latitu1,lng:longitu1}; 
+        var kochi = {lat:9.931233, lng:76.2673};
+        var kasargod={lat:12.4996, lng:74.9869};
+        var trivandrum={lat:8.5241, lng:76.9366};
+        var delhi={lat:28.7041,lng:77.1025}; 
+        var mumbai={lat:19.0760,lng:72.8777}; 
+      
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: kochi});
+        
+        var marker = new google.maps.Marker({position: markerplace, map: map});
+        var marker = new google.maps.Marker({position: kochi, map: map});
+        var marker = new google.maps.Marker({position: kasargod, map: map});
+        var marker = new google.maps.Marker({position: trivandrum, map: map});
+        var marker = new google.maps.Marker({position: delhi, map: map});
+        var marker = new google.maps.Marker({position: mumbai, map: map});
+
+      }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFLha0QDaiPwymEfo9q2Da8tkoOjhWBxg&callback=initMap">
+          </script>
+    </div>
+
 
 
 
