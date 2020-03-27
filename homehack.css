@@ -231,8 +231,8 @@ div.info a{text-decoration:none;
            padding-top:300px;
            }
 
-       #map{
-          width: 100%;
+#map{     width: 100%;
           height: 700px;
           background-color: grey;}
 
+div.section5 h1{margin-top:50px;}

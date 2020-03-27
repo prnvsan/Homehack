@@ -28,7 +28,7 @@ var questions = [
        if(i==questions.length){
        $("button").fadeOut("slow");
     
-       if(choices.indexOf("y")>=0)
+       if(choices.indexOf("y")>=2)
           result="You are at high risk of having contracted COVID-19,follow government guidelines and self isolate yourself.";
        else
           result="It seems you may not have COVID-19 ,but stay at home and practice social distancing.";
